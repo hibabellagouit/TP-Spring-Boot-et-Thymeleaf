@@ -1,0 +1,56 @@
+/* Style global */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e8e3);
+    color: #333;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Formulaire centré */
+form {
+    width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Titres des labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #2a7b6f;
+}
+
+/* Champs de texte */
+input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #2a7b6f;
+    outline: none;
+}
+
+/* Messages d’erreur */
+span[th\\:errors] {
+    color: #c0392b;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Bouton submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color:

@@ -1,0 +1,97 @@
+/* Style global de la page */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e8e3);
+    color: #333;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Titre principal */
+h2 {
+    text-align: center;
+    color: #2a7b6f;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Tableau principal */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* En-têtes de colonnes */
+thead {
+    background-color: #2a7b6f;
+    color: white;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+/* Lignes alternées */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Survol d'une ligne */
+tbody tr:hover {
+    background-color: #e2f0ec;
+    transition: background-color 0.3s ease;
+}
+
+/* Liens (Edit / Delete) */
+a {
+    text-decoration: none;
+    color: #2a7b6f;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1d524a;
+}
+
+/* Boutons Edit / Delete plus visibles */
+td a {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+td a[href*="edit"] {
+    background-color: #e3f6f2;
+}
+
+td a[href*="delete"] {
+    background-color: #fde4e4;
+    color: #c0392b;
+}
+
+/* Lien "Add a new user" */
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+p a {
+    background-color: #2a7b6f;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+p a:hover {
+    background-color: #25665c;
+}
